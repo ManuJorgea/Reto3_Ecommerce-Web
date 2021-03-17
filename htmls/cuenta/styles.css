@@ -1,0 +1,47 @@
+:root{
+    --green-color: hsl(93, 61%, 56%);
+    --magenta-color: hsl(329, 84%, 52%);
+    --lightGray-color: hsl(0, 0%, 69%);
+    --mediumGray-color: hsl(0, 0%, 36%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--mediumGray-color);
+}
+body{
+    background-color: var(--green-color);
+    min-width: 300px;
+    font-size: 15px;
+}
+.contenedor{
+    margin: 0 auto;
+}
+h1{
+    font-weight: 600;
+    line-height: 1;
+    color: var(--magenta-color)
+}
+.cajas{
+    padding: 8px 5px;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: var(--lightGray-color);
+    border-width: 2px;
+    cursor: pointer;
+    background: none;
+}
+.cajas:focus{
+    border-color: var(--magenta-color);
+}
+.login a{
+    color: var(--green-color);
+}
+.enviar{
+    background-color: var(--magenta-color);
+    font-weight: 600;
+}
+.enviar:hover{
+    background-color: hsl(329, 85%, 43%);
+}

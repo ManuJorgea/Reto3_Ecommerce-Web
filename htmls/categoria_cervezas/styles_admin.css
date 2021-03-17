@@ -1,0 +1,59 @@
+:root{
+    --yellow-color: hsl(45, 100%, 50%);
+    --purple-color: hsl(251, 36%, 48%);
+    --lightGray-color: hsl(0, 0%, 69%);
+    --mediumGray-color: hsl(0, 0%, 36%);
+    --AdminBlue-color: hsl(223, 71%, 54%);
+    --Admin-Red-color: hsl(0, 78%, 52%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--mediumGray-color);
+}
+body{
+    min-width: 300px;
+    font-size: 15px;
+}
+.cabecera{
+    background-color: var(--yellow-color);
+}
+.login a{
+    color: white;
+}
+h3, h4{
+    font-weight: 600;
+}
+h4{
+    color: var(--yellow-color);
+}
+.imgProducto{
+    border-style: solid;
+    border-width: 3px;
+    border-color:  hsla(45, 100%, 50%, 0.5);
+}
+.edit a{
+    color: var(--AdminBlue-color);
+}
+.delete{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    color: var(--Admin-Red-color);
+}
+.delete:hover{
+    text-decoration: underline;
+}
+.crear{
+    background-color: var(--AdminBlue-color);
+    font-weight: 600;
+}
+.crear:hover{
+    background-color: hsl(223, 67%, 42%);
+}
+footer{
+    background-color: var(--purple-color);
+}
+.derechos{
+    opacity: 0.5;
+}

@@ -37,7 +37,7 @@ footer{
 }
 .jugos{
     height: 200px;
-    background-image: url(/img/jugos.png);
+    background-image: url(../img/jugos.png);
     background-color: var(--green-color);
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ footer{
 }
 .cerveza{
     height: 200px;
-    background-image: url(/img/cerveza.png);
+    background-image: url(../img/cerveza.png);
     background-color: var(--yellow-color);
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ footer{
 }
 .vinos{
     height: 200px;
-    background-image: url(/img/vino.png);
+    background-image: url(../img/vino.png);
     background-color: var(--purple-color);
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ footer{
 }
 .otros{
     height: 200px;
-    background-image: url(/img/otros.png);
+    background-image: url(../img/otros.png);
     background-color: var(--magenta-color);
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ footer{
     background-image: none;
 }
 .form{
-    background-image: url(/img/contacto_bg.png);
+    background-image:url(../img/contacto_bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

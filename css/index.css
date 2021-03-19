@@ -49,7 +49,7 @@ footer{
 }
 .cerveza{
     height: 200px;
-    background-image: url(img/cerveza.png);
+    background-image: url(/img/cerveza.png);
     background-color: var(--yellow-color);
     background-position: center;
     background-repeat: no-repeat;

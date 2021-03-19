@@ -1,0 +1,7 @@
+Profe cordial saludo, yo realice varios htmls con el objetivo de mostrar las pequeñas variantes del diseño,
+en específico los colores del header y de algunos títulos. 
+
+Con referencia a las vistas de administrador de la página realice solo una página por vista como usted sugirió,
+con esa vista se puede entender como editaría los productos.
+
+Gracias.

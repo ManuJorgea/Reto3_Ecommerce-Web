@@ -32,7 +32,7 @@ h4{
     border-color:  hsla(251, 36%, 48%, 0.5);
 }
 .producto{
-    margin: 20.8px 0;
+    margin-top: 20px;
 }
 .producto :hover{
     border-color: var(--purple-color);

@@ -21,7 +21,7 @@
                 <img src="/img/bototo_logo.svg" alt="bototo_logo.svg" width="120">
             </a>
             <div class="login">
-                <a class="mr-2" href="/htmls/cuenta/login.html">LOGIN</a>
+                <a class="mr-2" href="login.html">LOGIN</a>
             </div>
         </header>
         <div class="container d-flex flex-wrap-reverse align-items-center justify-content-center">
@@ -44,22 +44,22 @@
                 </article>
             </div>
             <div class="d-flex flex-wrap justify-content-around">
-                <a href="htmls/categoria_jugos/jugos_sodas.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
+                <a href="vistas_detalle_admin/categoria_jugos/jugos_sodas.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
                     <div class="d-flex align-items-center justify-content-center jugos">
                         <h3 class="text-white">Jugos y Sodas</h3>
                     </div>
                 </a>
-                <a href="htmls/categoria_cervezas/cervezas.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
+                <a href="vistas_detalle_admin/categoria_cervezas/cervezas.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
                     <div class="d-flex align-items-center justify-content-center cerveza">
                         <h3 class="text-white">Cervezas</h3>
                     </div>
                 </a>
-                <a href="htmls/categoria_vinos/vinos.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
+                <a href="vistas_detalle_admin/categoria_vinos/vinos.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
                     <div class="d-flex align-items-center justify-content-center vinos">
                         <h3 class="text-white">Vinos</h3>
                     </div>
                 </a>
-                <a href="htmls/categoria_otros/otros.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
+                <a href="vistas_detalle_admin/categoria_otros/otros.html" class="col-lg-4 col-md-5 col-12 mx-2 my-2 p-0 text-decoration-none">
                     <div class="d-flex align-items-center justify-content-center otros">
                         <h3 class="text-white">Otros</h3>
                     </div>
@@ -92,8 +92,12 @@
                 <form action="col-12" method="post">
                     <div class="d-flex flex-wrap justify-content-center px-3">
                         <div class="col-12 d-flex flex-wrap justify-content-between p-0">
-                            <input class="col-lg-5 col-12 my-2 cajas" type="text" name="nombre" placeholder="Nombre" required>
-                            <input class="col-lg-6 col-12 my-2 cajas" type="email" name="email" placeholder="Email" required>
+                            <div class="col-lg-6 col-12 my-2 p-0 pr-lg-3">
+                                <input class="cajas col-12" type="text" name="nombre" placeholder="Nombre" required>
+                            </div>
+                            <div class="col-lg-6 col-12 my-2 p-0 pl-lg-3">
+                                <input class="cajas col-12" type="email" name="email" placeholder="Email" required>
+                            </div>
                         </div>
                         <textarea class="col-12 mt-2 cajas mensaje" name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
                         <input class="btn col-lg-3 col-12 text-white enviar mt-3" type="submit" value="ENVIAR">

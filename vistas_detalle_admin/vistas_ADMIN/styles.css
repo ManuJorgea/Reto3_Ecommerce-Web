@@ -1,5 +1,5 @@
 :root{
-    --green-color: hsl(93, 61%, 56%);
+    --magenta-color: hsl(329, 84%, 52%);
     --purple-color: hsl(251, 36%, 48%);
     --lightGray-color: hsl(0, 0%, 69%);
     --mediumGray-color: hsl(0, 0%, 36%);
@@ -17,7 +17,7 @@ body{
     font-size: 15px;
 }
 .cabecera{
-    background-color: var(--green-color);
+    background-color: var(--magenta-color);
 }
 .login a{
     color: white;
@@ -26,12 +26,12 @@ h3, h4{
     font-weight: 600;
 }
 h4{
-    color: var(--green-color);
+    color: var(--magenta-color);
 }
 .imgProducto{
     border-style: solid;
     border-width: 3px;
-    border-color:  hsla(93, 61%, 56%, 0.5);
+    border-color:  hsla(329, 84%, 52%, 0.5);
 }
 .edit a{
     color: var(--AdminBlue-color);
@@ -44,12 +44,31 @@ h4{
 .delete:hover{
     text-decoration: underline;
 }
+.editBtn{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    color: var(--AdminBlue-color);
+}
+.editBtn:hover{
+    text-decoration: underline;
+}
 .crear{
     background-color: var(--AdminBlue-color);
     font-weight: 600;
 }
 .crear:hover{
     background-color: hsl(223, 67%, 42%);
+}
+.cajas{
+    padding: 8px 5px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #9b9b9b;
+    border-width: 2px;
+    cursor: pointer;
+}
+.cajas:focus{
+    border-color: var(--AdminBlue-color);
 }
 footer{
     background-color: var(--purple-color);
